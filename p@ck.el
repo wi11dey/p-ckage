@@ -196,8 +196,8 @@
 			 (list (documentation func :raw)
 			       (commandp func :for-call-interactively)
 			       (pcase func
-				 ((pred keymapp) 'keymap)
-				 ((pred macrop)  'macro)))))
+				 ((pred keymapp) ''keymap)
+				 ((pred macrop)  ''macro)))))
 		  body))
 	  (when p@ck-enable-timing
 	    (setq p@ck-timing (assq-delete-all name p@ck-timing)))
