@@ -1,7 +1,4 @@
-#+title: p@ck.el
+#+title: p@ckage.el
 #+author: Will Dey
 
-Ah p@ck.
-
-commentary
-Reader constructs
+/Reader macros for your packages./
